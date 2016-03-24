@@ -2,6 +2,7 @@ name: nolearn-lasagne-theano
 dependencies:
 - python=2.7
 - anaconda
+- numpy
 - pip
 - pip:
     - git+https://github.com/Theano/Theano.git@54186290#egg=Theano==0.8.git
