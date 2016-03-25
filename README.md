@@ -16,30 +16,6 @@ Sample for setting up a conda virtualenv for running nolearn+lasagne+theano on U
  * ```source startup.sh```
  * ```python sample.py```
 
-The output should look like:
+The output should look like similar to expected_output.txt.
 
-
-Using gpu device 0: GeForce GT 630 (CNMeM is disabled)
-/# Neural Network with 22 learnable parameters
-
-/## Layer information
-
-  #    name    size
-/---  ------  ------
-  0              10
-                  2
-
-  epoch    train loss    valid loss    train/val  dur
-/-------  ------------  ------------  -----------  -----
-      1       1.75000       0.73575      2.37852  0.00s
-      2       0.43073       0.04950      8.70145  0.00s
-      3       0.06907       0.17868      0.38656  0.00s
-      4       0.22627       0.32091      0.70507  0.00s
-      5       0.27501       0.22801      1.20613  0.00s
-      6       0.16293       0.08731      1.86621  0.00s
-      7       0.06189       0.03197      1.93584  0.00s
-      8       0.03020       0.03328      0.90749  0.00s
-      9       0.02899       0.03325      0.87193  0.00s
-     10       0.02489       0.02075      1.19975  0.00s
-Score on test:0.0174257978797
 
