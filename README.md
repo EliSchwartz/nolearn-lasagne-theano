@@ -6,7 +6,9 @@ Sample for setting up a conda virtualenv for running nolearn+lasagne+theano on U
 ## Steps
 
 1. Install CUDA 7.5
-2. Install anconda ```wget https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda2-2.5.0-Linux-x86_64.sh && bash Anaconda2-2.5.0-Linux-x86_64.sh```
+2. Install anconda 
+ * ```wget https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda2-2.5.0-Linux-x86_64.sh```
+ * ```bash Anaconda2-2.5.0-Linux-x86_64.sh```
 3. Install git ```sudo apt-get git git-core```
 4. Get this repo ```git clone https://github.com/EliSchwartz/nolearn-lasagne-theano.git```
 5. Run sample:
@@ -16,19 +18,19 @@ Sample for setting up a conda virtualenv for running nolearn+lasagne+theano on U
 
 The output should look like:
 
-<div>
-Using gpu device 0: GeForce GT 630 (CNMeM is disabled)
-# Neural Network with 22 learnable parameters
 
-## Layer information
+Using gpu device 0: GeForce GT 630 (CNMeM is disabled)
+/# Neural Network with 22 learnable parameters
+
+/## Layer information
 
   #    name    size
----  ------  ------
+/---  ------  ------
   0              10
                   2
 
   epoch    train loss    valid loss    train/val  dur
--------  ------------  ------------  -----------  -----
+/-------  ------------  ------------  -----------  -----
       1       1.75000       0.73575      2.37852  0.00s
       2       0.43073       0.04950      8.70145  0.00s
       3       0.06907       0.17868      0.38656  0.00s
@@ -40,4 +42,4 @@ Using gpu device 0: GeForce GT 630 (CNMeM is disabled)
       9       0.02899       0.03325      0.87193  0.00s
      10       0.02489       0.02075      1.19975  0.00s
 Score on test:0.0174257978797
-</div>
+
