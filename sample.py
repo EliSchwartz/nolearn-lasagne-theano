@@ -11,7 +11,8 @@ l = lsgn.layers.InputLayer(shape=(None, X.shape[1]))
 l = lsgn.layers.DenseLayer(l, num_units=y.shape[1], nonlinearity=None)
 net = nl.NeuralNet(l, 
 	regression=True, 
-	update_learning_rate=0.1, 
+	update_learning_rate=0.1,
+	max_epochs = 10, 
 	verbose = 1)
 
 net.fit(X,y)
